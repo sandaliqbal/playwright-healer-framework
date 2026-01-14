@@ -4,7 +4,7 @@ import { HealingLocatorProxy } from './locator_proxy';
 import { toAriaRole } from './roles';
 
 export class HealingPage {
-  private readonly page: Page;
+  readonly page: Page;
   private readonly healer: ILocatorHealer;
 
   constructor(page: Page, healer: ILocatorHealer) {
@@ -73,10 +73,6 @@ export class HealingPage {
   ) {
     const locator: Locator = this.page.locator(text, options);
     return new HealingLocatorProxy(locator, this.healer);
-  }
-
-  getPage() {
-    return this.page
   }
 
   async goto(

@@ -1,0 +1,28 @@
+{
+  "name": "playwright-healer-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandaliqbal/playwright-healer-framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sandaliqbal/playwright-healer-framework/issues"
+  },
+  "homepage": "https://github.com/sandaliqbal/playwright-healer-framework#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^25.0.7"
+  },
+  "dependencies": {
+    "@langchain/ollama": "^1.1.0",
+    "js-yaml": "^4.1.1"
+  }
+}
